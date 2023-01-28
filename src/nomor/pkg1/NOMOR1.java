@@ -20,13 +20,8 @@ public class NOMOR1 {
         // n lebih besar dari 2
         int on;
         Scanner input = new Scanner(System.in);
-        System.out.println("menentukan saklar akan on atau off");
-        System.out.println("abang pilih 0 atau 1");
+        System.out.println("masukkan nama anda ");
         on = input.nextInt();
-        if (on==1) {
-            System.out.println("on");
-        } else { 
-            System.out.println("off");
-        }
+        System.out.println(on);
     }
 }
